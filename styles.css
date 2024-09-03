@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Harry P', sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #FFD700; /* Golden color */
+    color: #4B0082; /* Dark purple */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Harry P', sans-serif;
+}
+
+button:hover {
+    background-color: #FF6347; /* Tomato color */
+}
+
+#birthdayMessage {
+    text-align: center;
+    margin-top: 20px;
+    color: #FFD700;
+    font-size: 36px;
+}
+
+.poppers {
+    margin-top: 10px;
+    font-size: 48px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Harry P font link */
+@font-face {
+    font-family: 'Harry P';
+    src: url('https://example.com/harry-potter-font.ttf'); /* Replace with actual Harry Potter font URL */
+}
